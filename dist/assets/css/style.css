@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background: #F5F5F5;
+    background: #f5f5f5;
 }
 
 .container {
@@ -504,6 +504,7 @@ textarea {
 
 .about {
     font-family: 'Roboto', sans-serif;
+    min-height: 820px;
 }
 
 .about__inner {
@@ -517,29 +518,106 @@ textarea {
 
 .about__wrapper {
     background: #ffffff;
-    position: absolute;
+    position: relative;
     width: 1020px;
     height: 700px;
     z-index: 100;
-    top: 70%;
+    top: -100px;
 }
 
 .about-uptitle {
     padding-top: 100px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 .about-title {
     padding: 33px 0;
-    color: #02133C;
+    width: 560px;
+    color: #02133c;
     font-weight: 900;
     font-size: 36px;
 }
 
 .about-description {
     padding-bottom: 60px;
+    width: 850px;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.15px;
-    color: #4B4B4B;
+    color: #4b4b4b;
+}
+
+.promise {
+    font-family: 'Roboto', sans-serif;
+}
+
+.promise-uptitle {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    color: #4b4b4b;
+}
+
+.promise-title {
+    margin-bottom: 70px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #02133c;
+}
+
+.promise-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.promise__item {
+    width: 325px;
+    height: 150px;
+    display: flex;
+}
+
+.item__logo {
+    margin-right: 25px;
+}
+
+.item__title {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    color: #02133c;
+}
+
+.item__description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4b4b4b;
+}
+
+.video-item {
+    background: url("../../../assets/img/promises/video-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.video__inner {
+    position: relative;
+    max-width: 411px;
+    top: 135px;
+    left: 60%;
+}
+
+.video-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
 }
